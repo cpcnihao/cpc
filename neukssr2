@@ -1,12 +1,3 @@
-
- neukssr登入：https://neukssr.club/user 
-[rewrite_local] 
-^https?://.neukssr.club/user url script-request-header neukssrCookie.js 
-[mitm] 
-https://neukssr.club/
-
-*/
-
 let headerCookie = $request.headers["Cookie"];
 
 if (headerCookie) { 
