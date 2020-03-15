@@ -1,5 +1,4 @@
-
-neukssrCookies 获取 ;
+/* neukssrCookies 获取 ;
  neukssr登入：https://neukssr.club/user 
 [rewrite_local] 
 ^https?://.neukssr.club/user url script-request-header neukssrCookie.js 
