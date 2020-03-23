@@ -2,7 +2,7 @@
 ; Update 2020.03.06 17:00, by Kai
 ; neukssr登入：https://neukssr.club/user
 [rewrite_local]
-^http?:\/\/www\.qiujiasu01\.com\/user url script-request-header neukssr/neukssrcookies.js
+^https?:\/\/\neukssr\.club\/user url script-request-header neukssr/neukssrcookies.js
 [mitm]
 https://neukssr.club/
 */
