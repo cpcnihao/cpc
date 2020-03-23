@@ -1,5 +1,4 @@
 
-
 let headerCookie = $request.headers["Cookie"];
 
 if (headerCookie) {
